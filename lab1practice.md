@@ -5,7 +5,7 @@ __Bold__
 # Heading 1
 ## Heading 2
 [Link](https://docs.google.com/document/d/1fja5XK2yNsCfvfLCnvNBkxYMa0v1Y1Syd59g4AIfNao/edit#)
-![Image](http://url/Stay Gold Logo.png)
+![Image](file:///Users/rishikakejriwal/Documents/Stay%20Gold%20Logo.png)
 > Blockquote
 * List
 * List
