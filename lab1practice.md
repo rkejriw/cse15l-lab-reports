@@ -5,7 +5,7 @@ __Bold__
 # Heading 1
 ## Heading 2
 [Link](https://docs.google.com/document/d/1fja5XK2yNsCfvfLCnvNBkxYMa0v1Y1Syd59g4AIfNao/edit#)
-! [Image](http://url/
+![Image](http://url/Stay Gold Logo.png)
 > Blockquote
 * List
 * List
@@ -34,7 +34,4 @@ print '3 backticks or'
 print 'indent 4 spaces'
 ```
 
-....# code block
-....print '3 backticks or'
-....print 'indent 4 spaces'
 
