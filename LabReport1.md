@@ -40,4 +40,19 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
   - `ls -lat`
   - `ls -a`
   - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` etc..
+ * The commands I have tried using in my terminal are:
+  - `cd ~`
+  - `cd`
+  - `ls -lat`
+  - `ls -a`
+  - `ls /home/linux/ieng6/cs15lsp23/cs15lsp23em` (Here I'm trying to connect to another group member's course-specifc account)
+  - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+  - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` ![Image](commands .png)
+ * As you can see in the picture above, when I give `cd ~` and `cd` and as commands, I do not get any output.
+ * With the command `ls -lat` and `ls -a` commands, I get the green and blue coloured parts as the output.
+ * In this command, `ls /home/linux/ieng6/cs15lsp23/cs15lsp23em` I am trying to connect the server with another of my group member's account. Therefore, the output I get is ** Permission denied**.
+ * For the last two commands, I am inputing the directory as files that do not exist. Therfore the output message is 'No such file or directory'
+
+Once you've completed all these steps, you are all set-up for CSE 15L!
+  
   
