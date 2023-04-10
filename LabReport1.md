@@ -31,6 +31,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 * You will now put in the passcode for your **course-specifc** account to get connected to the server. ![Image](serverconnect.png)
 * If you terminal looks like the above, Congratulations! You are now connected to the server and can move onto Step 3.
 
+
 ## Trying Some Commands
 
 * Now we should try using some commands 
