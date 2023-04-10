@@ -12,12 +12,14 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 * The device I am using is a MacBook Pro with an M1 chip. For different operating systems, there will be different steps to follow so choose the ones that work for your device.
 * Since I took CSE 8B the previous quarter, I already have VScode installed onto my device and therefore I skipped the first step of installation and continued from the second step. For those of you that have done the same (taken CSE 8B/ CSE 11) probably have VScode installed as well.
 * Here's an example of how VScode should look like once you open it on your laptop!
+
  ![Image](vscode.png)
 * Now your all set to move onto Step 2!
 
 ## Remotely Connecting
 
 * To connect remotely, first you will have to open a new terminal in VScode. 
+
 ![Image](newterminal.png)
 * After opening the terminal, type in the follwing to connect the terminal with your CSE 15L course specific account. Replace the zz here with the letters in **YOUR** course-specifc account.
 ` $ ssh cs15lsp23zz@ieng6.ucsd.edu` Now run the command.
@@ -29,9 +31,11 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 * Since I have already connected to the server, my terminal appears like this. 
+
 ![Image](terminalssh.png)
 * Notice you are asked to input your passcode.
 * You will now put in the passcode for your **course-specifc** account to get connected to the server. 
+
 ![Image](serverconnect.png)
 * If you terminal looks like the above, Congratulations! You are now connected to the server and can move onto Step 3.
 
@@ -63,5 +67,3 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
  * For the last two commands, I am inputing the directory as files that do not exist. Therfore the output message is 'No such file or directory'.
 
 Once you've completed all these steps, you are all set-up for CSE 15L!
-  
-  
