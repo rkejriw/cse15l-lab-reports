@@ -9,7 +9,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 ## Downoading VScode
 
 * To download VScode onto you respective devices, you can use the following website (link: [Link](https://code.visualstudio.com/)) for instructions! 
-* The device I am using is a Macbook Pro with an M1 chip. For different operating systems, there will be different steps to follow so choose the ones that work for your device.
+* The device I am using is a MacBook Pro with an M1 chip. For different operating systems, there will be different steps to follow so choose the ones that work for your device.
 * Since I took CSE 8B the previous quarter, I already have VScode installed onto my device and therefore I skipped the first step of installation and continued from the second step. For those of you that have done the same (taken CSE 8B/ CSE 11) probably have VScode installed as well.
 * Here's an example of how VScode should look like once you open it on your laptop! ![Image](vscode.png)
 * Now your all set to move onto Step 2!
@@ -28,5 +28,16 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 * Since I have already connected to the server, my terminal appears like this. ![Image](terminalssh.png)
 * Notice you are asked to input your passcode.
-* You will now put in the passcode for your course-specifc account to get connected to the server. ![Image](serverconnect.png)
+* You will now put in the passcode for your **course-specifc** account to get connected to the server. ![Image](serverconnect.png)
 * If you terminal looks like the above, Congratulations! You are now connected to the server and can move onto Step 3.
+
+## Trying Some Commands
+
+* Now we should try using some commands 
+* Here are some commands you can try:
+  - `cd ~`
+  - `cd`
+  - `ls -lat`
+  - `ls -a`
+  - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` etc..
+  
