@@ -54,6 +54,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
    - `ls /home/linux/ieng6/cs15lsp23/cs15lsp23em` 
    - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
    - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` 
+   
  ![Image](commands.png)
  
  * As you can see in the picture above, when I give `cd ~` and `cd` and as commands, I do not get any output.
