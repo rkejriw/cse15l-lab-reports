@@ -38,7 +38,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Trying Some Commands
 
-* Now we should try using some commands 
+* Now we should try using some commands.
 * Here are some commands you can try:
   - `cd ~`
   - `cd`
