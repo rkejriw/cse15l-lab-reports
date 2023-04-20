@@ -65,4 +65,4 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
  * In this command, `ls /home/linux/ieng6/cs15lsp23/cs15lsp23em` I am trying to connect the server with another of my group member's course-specific account. Therefore, the output I get is **Permission denied**.
  * For the last two commands, I am inputing the directory as files that do not exist. Therfore the output message is 'No such file or directory'.
 
-Once you've completed all these steps, you are all set-up for CSE 15L!
+Once you've completed all these steps, you are all set-up for CSE 15L! 
