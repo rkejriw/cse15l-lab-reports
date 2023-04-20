@@ -13,7 +13,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 * Since I took CSE 8B the previous quarter, I already have VScode installed onto my device and therefore I skipped the first step of installation and continued from the second step. For those of you that have done the same (taken CSE 8B/ CSE 11) probably have VScode installed as well.
 * Here's an example of how VScode should look like once you open it on your laptop!
 
-<img src="vscode.png" width="100" height="100">
+<img src="vscode.png" width="1000" height="1000">
 
 * Now you are all set to move onto Step 2!
 
