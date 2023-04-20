@@ -33,7 +33,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ![Image](terminalssh.png)
 * Notice you are asked to input your passcode.
-* You will now put in the passcode for your **course-specifc** account to get connected to the server. 
+* You will now put in the passcode for your **course-specific** account to get connected to the server. 
 
 ![Image](serverconnect.png)
 * If your terminal now looks like the above, Congratulations! You are now connected to the server and can move onto Step 3.
