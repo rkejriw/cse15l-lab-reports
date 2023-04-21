@@ -13,7 +13,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 * Since I took CSE 8B the previous quarter, I already have VScode installed onto my device and therefore I skipped the first step of installation and continued from the second step. For those of you that have done the same (taken CSE 8B/ CSE 11) probably have VScode installed as well.
 * Here's an example of how VScode should look like once you open it on your laptop!
 
-<img src="vscode.png" width="30%" height="30%">
+<img src="vscode.png" width="70%" height="70%">
 
 * Now you are all set to move onto Step 2!
 
@@ -21,7 +21,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 
 * To connect remotely, first you will have to open a new terminal in VScode. 
 
-![Image](newterminal.png)
+<img src="newterminal.png" width="70%" height="70%">
 * After opening the terminal, type in the follwing to connect the terminal with your CSE 15L course specific account. Replace the zz here with the letters in **YOUR** course-specifc account. `$ ssh cs15lsp23zz@ieng6.ucsd.edu` 
 * If this is the first time you have connected to the server, you will get a prompt as shown below to which you should respond 'Yes'. 
 ```
@@ -32,11 +32,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 * Since I have already connected to the server, my terminal appears like this. 
 
-![Image](terminalssh.png)
+<img src="terminalssh.png" width="70%" height="70%">
 * Notice you are asked to input your passcode.
 * You will now put in the passcode for your **course-specific** account to get connected to the server. 
 
-![Image](serverconnect.png)
+<img src="serverconnect.png" width="70%" height="70%">
 * If your terminal now looks like the above, Congratulations! You are now connected to the server and can move onto Step 3.
 
 
@@ -59,7 +59,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
    - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
    - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` 
    
- ![Image](commands.png)
+<img src="commands.png" width="70%" height="70%">
  
  * As you can see in the picture above, when I give `cd ~` and `cd` as commands, I do not get any output.
  * With the command `ls -lat` and `ls -a`, I get the green and blue coloured parts as the output.
