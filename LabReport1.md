@@ -21,7 +21,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 
 * To connect remotely, first you will have to open a new terminal in VScode. 
 
-<img src="newterminal.png" width="70%" height="70%">
+<img src="newterminal.png" width="90%" height="90%">
 * After opening the terminal, type in the follwing to connect the terminal with your CSE 15L course specific account. Replace the zz here with the letters in **YOUR** course-specifc account. `$ ssh cs15lsp23zz@ieng6.ucsd.edu` 
 * If this is the first time you have connected to the server, you will get a prompt as shown below to which you should respond 'Yes'. 
 ```
