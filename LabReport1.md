@@ -13,7 +13,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 * Since I took CSE 8B the previous quarter, I already have VScode installed onto my device and therefore I skipped the first step of installation and continued from the second step. For those of you that have done the same (taken CSE 8B/ CSE 11) probably have VScode installed as well.
 * Here's an example of how VScode should look like once you open it on your laptop!
 
-<img src="vscode.png" width="60%" height="60%">
+<img src="vscode.png" width="65%" height="65%">
 
 * Now you are all set to move onto Step 2!
 
@@ -21,7 +21,7 @@ To set-up for CSE 15L, you will have to go through the following three steps:
 
 * To connect remotely, first you will have to open a new terminal in VScode. 
 
-<img src="newterminal.png" width="90%" height="90%">
+<img src="newterminal.png" width="100%" height="100%">
 * After opening the terminal, type in the follwing to connect the terminal with your CSE 15L course specific account. Replace the zz here with the letters in **YOUR** course-specifc account. `$ ssh cs15lsp23zz@ieng6.ucsd.edu` 
 * If this is the first time you have connected to the server, you will get a prompt as shown below to which you should respond 'Yes'. 
 ```
