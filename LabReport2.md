@@ -34,7 +34,7 @@ public void testReversed() {
 
 * The bug, as the before-and-after code change required to fix it is the following:
 
-**BEFORE : **
+**BEFORE :**
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
