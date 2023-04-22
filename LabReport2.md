@@ -12,7 +12,7 @@ This lab report will consist of three Parts:
 
 ## Part 2
 
-* One bug from Lab 3 that I will be addressing in this report is the error in the method **reversed**.
+* One bug from Lab 3 that I will be addressing in this report is the error in the method _**reversed**_.
 * A failure-inducing input for the buggy program, is writing a test case such as:
 ```
 @Test
