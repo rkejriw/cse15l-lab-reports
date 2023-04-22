@@ -30,7 +30,7 @@ public void testReversed() {
 }
 ```
 * The symptom, as the output of running these tests is the following:
-![Image](Syptomlab3.png)
+![Image](Symptomlab3.png)
 
 * The bug, as the before-and-after code change required to fix it is the following:
 
