@@ -70,6 +70,6 @@ static int[] reversed(int[] arr) {
 
 * In the labs conducted in weeks 2 and 3, I learnt how to use GitHub Desktop to clone a repository and open it in VScode. 
 * Since, I had never worked with GitHub before, it was my first time using GitHub Desktop as well which was an interesting experience for me.
-* By opeing these repositories in VScode I was able to learn how to create servers and get them to return messages, this was also something I had never done before and I was intrigued to learn more about it.
-* I also learnt that we can add paths to servers which can count, increment and add values and then return them by using String.format.
+* By opening these repositories in VScode I was able to learn how to create servers and get them to return messages, this was also something I had never done before and I was intrigued to learn more about it.
+* I also learnt that we can add paths to servers which can count, increment and add values and then return them by using `String.format`.
 * Discovering new tools, paths and methods was an enjoyable learning experience for me.
