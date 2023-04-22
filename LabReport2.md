@@ -64,7 +64,7 @@ static int[] reversed(int[] arr) {
   return newArray;
 }
 ```
-  - The after code is now giving the correct output and working because now, the for loop is iterating through the array `arr` to assign new values to the array `newArray`. I have also corrected the return value to now be newArray because we want the newArray to give us the reversed values. Thus, the actual and expected output now match and the bug has been removed by these fixes.
+  - The after code is now giving the correct output and working because now, the for loop is iterating through the array `arr` to assign new values to the array `newArray`. I have also corrected the return value to now be `newArray` because we want the `newArray` to give us the reversed value for `arr`. Thus, the actual and expected output now match and the bug has been removed by these fixes.
 
 ## Part 3
 
