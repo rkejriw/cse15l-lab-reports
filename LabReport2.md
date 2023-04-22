@@ -44,7 +44,10 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-   **AFTER :**
+* The before code is assigning new values to the array arr in the for loop instead of the newArray and is also returning arr back instead of newArray. This causes an error in testReversed1 as the expected output and the actual output do not match.
+
+    **AFTER :**
+    
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
@@ -54,5 +57,7 @@ static int[] reversed(int[] arr) {
   return newArray;
 }
 ```
+* The after code is now giving the correct output and working because now, the for loop is iterating through the array arr to assign new values to the array newArray. I have also corrected the return value to now be newArray because we want the newArray to give us the reversed values. Thus, the actual and expected output now match and the bug has been removed by these fixes.
+
 ## Part 3
 
