@@ -30,7 +30,8 @@ How are you
 * The relevant arguments to the method `handleRequest` are the fields `temp` which has `String` datatype and `parameters` which has `String[]` datatype i.e. String Array.
     - The field `parameters` splits the query after the `=` sign to understand what the argument is and then stores its value in `temp`.
     - The field `temp` is first initialized to `""` and then after the argument is split and passes the if statements, the value of `temp` is intialized to the value that will be given after `/add-message`.
-
+   
+* The value of the field `temp` changes from the specific request of `/add-message`. This is because each time we add a new message to the server, its value gets stored in the field `temp`. Therefore, with the first `/add-message` request, the value `Hello` gets stored in the field `temp` and then with the second `/add-message` request, the new value gets stored in the field `temp` which will print the new message on the line right after the first message, as it can be seen in the second screenshot. This change is taking place by the usage of if statements which checks the value of `temp` and accrodingly gives the desired output.
 
 ## Part 2
 
