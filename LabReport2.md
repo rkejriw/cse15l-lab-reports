@@ -20,7 +20,7 @@ This lab report will consist of three Parts:
 
 <img src="ss2_addmessage.png" width="75%" hieght="80%">
 
-* Whereas the above `add-message` is adding another line after `Hello` to add `How are you` to the server which results in the following output on the server.
+* Whereas the above `/add-message` is adding another line after `Hello` to add `How are you` to the server which results in the following output on the server.
 ```
 Hello
 How are you
