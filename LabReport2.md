@@ -14,6 +14,7 @@ This lab report will consist of three Parts:
 
 *
 *
+*
 
 ## Part 2
 
