@@ -20,13 +20,11 @@ This lab report will consist of three Parts:
 
 <img src="ss2_addmessage.png" width="75%" hieght="80%">
 
-* Whereas the above `add-message` is adding another line after `Hello` to add `How are you` to the server which results in an output of 
+* Whereas the above `add-message` is adding another line after `Hello` to add `How are you` to the server which results in the following output on the server.
 ```
 Hello
 How are you
 ``` 
-on the server.
-
 * The methods called in my code are `handleRequest` in the class `Handler` and the method `main` in the class `StringServer`.
 
 * The relevant arguments to the method `handleRequest` are the fields `temp` which has `String` datatype and `parameters` which has `String[]` datatype i.e. String Array.
