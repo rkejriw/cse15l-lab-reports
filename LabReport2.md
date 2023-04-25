@@ -10,7 +10,7 @@ This lab report will consist of three Parts:
 
 * The following is the code for my `StringServer` and it is stored in the file called `StringServer.java`:
 
-<img src="codelab2.png" width="75%" hieght="80%">
+<img src="codelab2.png" width="70%" hieght="70%">
 
 * The following two images are the usage of `/add-message`:
 
