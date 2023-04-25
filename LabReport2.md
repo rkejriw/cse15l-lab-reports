@@ -16,11 +16,16 @@ This lab report will consist of three Parts:
 
 <img src="sshello.png" width="75%" hieght="80%">
 
-* This `/add-message` is adding `Hello` to the server.
+* The above `/add-message` is adding `Hello` to the server.
 
 <img src="ss2_addmessage.png" width="75%" hieght="80%">
 
-* Whereas this `add-message` is adding another line after `Hello` to add `How are you` to the server.
+* Whereas the above `add-message` is adding another line after `Hello` to add `How are you` to the server which results in an output of 
+```
+Hello
+How are you
+``` 
+on the server.
 
 * The methods called in my code are `handleRequest` in the class `Handler` and the method `main` in the class `StringServer`.
 
