@@ -13,6 +13,7 @@ This lab report will consist of three Parts:
 <img src="ss2_addmessage.png" width="75%" hieght="80%">
 
 *
+*
 
 ## Part 2
 
