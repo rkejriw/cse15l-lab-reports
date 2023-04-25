@@ -8,13 +8,23 @@ This lab report will consist of three Parts:
 
 ## Part 1
 
-<img src="codelab2.png" width="75%" hieght="80%">
-<img src="sshello.png" width="75%" hieght="80%">
-<img src="ss2_addmessage.png" width="75%" hieght="80%">
+* The following is the code for my `StringServer` and it is stored in the file called `StringServer.java`:
 
-*
-*
-*
+<img src="codelab2.png" width="75%" hieght="80%">
+
+* The following two images are the usage of `/add-message`:
+
+<img src="sshello.png" width="75%" hieght="80%">
+* This `/add-message` is adding `Hello` to the server.
+<img src="ss2_addmessage.png" width="75%" hieght="80%">
+* Whereas this `add-message` is adding another line after `Hello` to add `How are you` to the server.
+
+* The methods called in my code are `handleRequest` in the class `Handler` and the method `main` in the class `StringServer`.
+
+* The relevant arguments to the method `handleRequest` are the fields `temp` which has `String` datatype and `parameters` which has `String[]` datatype i.e. String Array.
+    - The field `parameters` splits the query after the `=` sign to understand what the argument is and then stores its value in `temp`.
+    - The field `temp` is first initialized to `""` and then after the argument is split and passes the if statements, the value of `temp` is intialized to the value that will be given after `/add-message`.
+
 
 ## Part 2
 
