@@ -58,7 +58,7 @@ public void testReversed() {
 
 * The symptom, as the output of running these tests is the following:
 
-<img src="Symptomlab3.png" width="75%" hieght="80%"> 
+<img src="Symptomlab3.png" width="65%" hieght="65%"> 
 
   - At the very bottom of this image we see that the terminal ran 4 test cases out of which one of them failed. To figure out which test case in particular failed, we will look at the line below, `There was 1 failure:` which tells us that `testReversed1` failed. It also tells us why this test case failed. Thus by looking at the image above we can figure out that the test failed because the expected value at index 0 should be 3 but the actual value was 0. I have now attempted at fixing this bug in the next bullet point.
 
