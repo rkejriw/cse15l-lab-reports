@@ -8,6 +8,10 @@ This lab report will consist of three Parts:
 
 ## Part 1
 
+<img src="codelab2.png" width="75%" hieght="80%">
+<img src="sshello.png" width="75%" hieght="80%">
+<img src="ss2_addmessage.png" width="75%" hieght="80%">
+
 *
 
 ## Part 2
