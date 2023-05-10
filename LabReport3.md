@@ -50,9 +50,11 @@ cs15lsp23eh@ieng6-203]:biomed:159$ find -iname "R*7*.txt"
 
 ## find -type 
 
-The command-line option `find -type` is used to search for files and directories based on their type. Thus, `-type` takes in a single character argument
+The command-line option `find -type` is used to search for files and directories based on their type. Thus, `-type` takes in a single character argument which specifies what it needs to search for. In my examples I have used `-type d` which searches for directories and `-type f` which searches for regular files. There are more arguments that can be used such as `l,s,b,c and p`. This is useful when we are tring to locate what a particular file is located in. The directory can help us understand how we can reach that file.
 
-Example 1: finding directory 
+website citation: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+
+Example 1:  
 ```
 [cs15lsp23eh@ieng6-203]:stringsearch-data:174$ find -type d
 ./.git
@@ -84,7 +86,9 @@ Example 1: finding directory
 ./technical/government/Post_Rate_Comm
 ./technical/plos
 ```
-example 2: finding file 
+* In Example 1, `find -type d` searches for all the directories inside `stringsearch-data` which contains `technical` and that contains `911report`, `biomed`, `government` and `plos`.
+
+Example 2:  
 ```
 [cs15lsp23eh@ieng6-203]:Alcohol_Problems:181$ find -type f
 ./DraftRecom-PDF.txt
@@ -92,9 +96,15 @@ example 2: finding file
 ./Session3-PDF.txt
 ./Session4-PDF.txt
 ```
--print 
+* In Example 2, `find -type f` is searching for all the files inside `Alcohol_Problems` and thus gives the required output.
 
-example 1 : printing all files inside government inside Post_Rate_Comm
+## find -print 
+
+The command-line option `find -print` is the default behavior of the `find` command and therefore it does not print anything different. However, it is useful as it can be used when we want to specify other options. `find -print` is basically printing the path names of all the files inside a particular directory.
+
+website citation: [Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
+Example 1: 
 ```
 [cs15lsp23eh@ieng6-203]:Post_Rate_Comm:238$ find -print
 ./Cohenetal_Cost_Function.txt
@@ -112,7 +122,9 @@ example 1 : printing all files inside government inside Post_Rate_Comm
 ./ReportToCongress2002WEB.txt
 ./WolakSpeech_usps.txt
 ```
-example 2: printing the path names of all files inside 911report
+* In Example 1, `find -print` is printing the path names of all the files inside `Post_Rate_Comm`.
+
+Example 2: 
 ```
 [cs15lsp23eh@ieng6-203]:911report:200$ find -print
 ./chapter-1.txt
@@ -133,8 +145,15 @@ example 2: printing the path names of all files inside 911report
 ./chapter-9.txt
 ./preface.txt
 ```
--size +N/-N
-example 1: finding files with size lesser than 25 blocks (where a block is typically 512 bytes).
+* In Example 2, `find -print` is printing the path names of all the files inside `911report`.
+
+## find -size +N/-N
+
+The command line `find -size +N` or `find -size -N` is used to search for files that are larger or smaller than a specified size - N. The `+N` option finds files that are larger than N blocks and the `-N` option finds files that are smaller than N blocks. This can be useful when you are trying to find a file with a particular size. One possible case where you could use this is when uploading files; you can use the `-size` option to determine if your file matches the criteria for being uploaded onto a particular website.
+
+website citation: [Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
+Example 1: 
 ```
 [cs15lsp23eh@ieng6-203]:biomed:248$ find -size -25
 ./1471-2105-3-24.txt
@@ -147,7 +166,9 @@ example 1: finding files with size lesser than 25 blocks (where a block is typic
 ./1477-7819-1-10.txt
 ./cc973.txt
 ```
-example 2: finding files with size bigger than 60 blocks (where a block is typically 512 bytes).
+* In Example 1, `find -size -25` is finding all files with size smaller than 25 blocks (where a block is typically 512 bytes) inside `biomed`.
+
+Example 2: 
 ```
 [cs15lsp23eh@ieng6-203]:plos:260$ find -size +60
 ./pmed.0010028.txt
@@ -161,3 +182,4 @@ example 2: finding files with size bigger than 60 blocks (where a block is typic
 ./pmed.0020246.txt
 ./pmed.0020249.txt
 ```
+* In Example 2, `find -size +60` is finding all files with size larger than 60 blocks (where a block is typically 512 bytes) inside `plos`.
