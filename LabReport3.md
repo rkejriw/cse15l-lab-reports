@@ -1,4 +1,6 @@
-# Lab Report 1
+# Lab Report 3
+
+The `find` command is used to search for files and directories.
 
 For this Lab Report, I will be using 4 command-line options for the command **find**:
 1. find -iname
