@@ -12,6 +12,8 @@ For this Lab Report, I will be using 4 command-line options for the command `fin
 
 The command-line option `find -iname` is used to search for files and directories with a specifc name but unlike `find -name`, `find -iname` is **not** case sensitive. This is useful becuase we don't have to always keep in mind about lower casing or upper casing while giving in the command.
 
+website citation: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+
 Example 1:
 ```
 [cs15lsp23eh@ieng6-203]:911report:152$ find -iname "C*P*.txt"
@@ -32,7 +34,7 @@ Example 1:
 ./chapter-8.txt
 ./chapter-9.txt
 ```
-* In Example 1, `find -iname "C*P*.txt"` is searching for all the files ending in `txt` in `911report` that have 'C' and 'P' in them. Here, we can clearly see that `-iname` is not case sensitive as we have given in the command of capital C and P however `chapter` has lowercased letters.
+* In Example 1, `find -iname "C*P*.txt"` is searching for all the files ending in `txt` in `911report` that have 'C' and 'P' in them. Here, we can clearly see that `-iname` is not case sensitive as we have given in the command of upper case C and P however `chapter` has lowercased letters.
 
 Example 2:
 ```
@@ -45,9 +47,12 @@ cs15lsp23eh@ieng6-203]:biomed:159$ find -iname "R*7*.txt"
 ./rr74.txt
 ```
 * In Example 2, `find -iname "R*7*.txt"` is searching for all the files ending in `txt` in `biomed` that have 'R' and '7' in them.
--type 
 
-example 1: finding directory 
+## find -type 
+
+The command-line option `find -type` is used to search for files and directories based on their type. Thus, `-type` takes in a single character argument
+
+Example 1: finding directory 
 ```
 [cs15lsp23eh@ieng6-203]:stringsearch-data:174$ find -type d
 ./.git
