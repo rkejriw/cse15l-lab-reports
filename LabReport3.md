@@ -2,15 +2,17 @@
 
 The `find` command is used to search for files and directories.
 
-For this Lab Report, I will be using 4 command-line options for the command **find**:
+For this Lab Report, I will be using 4 command-line options for the command `find`:
 1. find -iname
 2. find -type
 3. find -print
 4. find -size +N/-N
 
 ## find -iname 
-* 
-example 1:
+
+The command-line option `find -iname` is used to search for files and directories with a specifc name but unlike `find -name`, `find -iname` is **not** case sensitive. This is useful becuase we don't have to always keep in mind about lower casing or upper casing while giving in the command.
+
+Example 1:
 ```
 [cs15lsp23eh@ieng6-203]:911report:152$ find -iname "C*P*.txt"
 ./chapter-1.txt
@@ -30,7 +32,9 @@ example 1:
 ./chapter-8.txt
 ./chapter-9.txt
 ```
-example 2:
+* In Example 1, `find -iname "C*P*.txt"` is searching for all the files ending in `txt` in `911report` that have 'C' and 'P' in them. Here, we can clearly see that `-iname` is not case sensitive as we have given in the command of capital C and P however `chapter` has lowercased letters.
+
+Example 2:
 ```
 cs15lsp23eh@ieng6-203]:biomed:159$ find -iname "R*7*.txt"
 ./rr167.txt
@@ -40,6 +44,7 @@ cs15lsp23eh@ieng6-203]:biomed:159$ find -iname "R*7*.txt"
 ./rr73.txt
 ./rr74.txt
 ```
+* In Example 2, `find -iname "R*7*.txt"` is searching for all the files ending in `txt` in `biomed` that have 'R' and '7' in them.
 -type 
 
 example 1: finding directory 
