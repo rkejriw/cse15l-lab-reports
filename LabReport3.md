@@ -1,4 +1,13 @@
--iname 
+# Lab Report 1
+
+For this Lab Report, I will be using 4 command-line options for the command **find**:
+1. find -iname
+2. find -type
+3. find -print
+4. find -size +N/-N
+
+## find -iname 
+* 
 example 1:
 ```
 [cs15lsp23eh@ieng6-203]:911report:152$ find -iname "C*P*.txt"
