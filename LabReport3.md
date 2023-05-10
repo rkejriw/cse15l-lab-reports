@@ -10,7 +10,7 @@ For this Lab Report, I will be using 4 command-line options for the command `fin
 
 ## find -iname 
 
-The command-line option `find -iname` is used to search for files and directories with a specifc name but unlike `find -name`, `find -iname` is **not** case sensitive. This is useful becuase we don't have to always keep in mind about lower casing or upper casing while giving in the command.
+The command-line option `find -iname` is used to search for files and directories with a specifc name but unlike `find -name`, `find -iname` is **not** case sensitive. This is useful because we don't have to always keep in mind about lower casing or upper casing while giving in the command.
 
 website citation: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
