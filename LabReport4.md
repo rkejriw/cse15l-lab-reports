@@ -1,6 +1,6 @@
 # Lab Report 4
 
-This Lab Report consists of 6 steps that is Step 4 to Step 9.
+This Lab Report consists of 6 steps that is from Step 4 to Step 9.
 
 ## Step 4 - Log into ieng6
 
