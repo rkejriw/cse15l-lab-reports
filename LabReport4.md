@@ -4,7 +4,7 @@ This Lab Report consists of 6 steps that is from Step 4 to Step 9.
 
 ## Step 4 - Log into ieng6
 
-<img src="step4.png" width="90%" hieght="90%">
+![Image](step4.png)
 
 Keys pressed: `ssh cs15lsp23eh@ieng6.ucsd.edu <enter>` and `Password: <enter>` By this I successfully logged into my ieng6 account. These commands are accessing my CSE 15L course specific account and then asking me for my password to help me log into my account.
 
