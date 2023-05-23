@@ -47,6 +47,6 @@ Keys pressed: `git commit -a <enter>` By pressing the following I was able to co
 
 <img src="step9b.png" width="70%" hieght="70%">
 
-After receieving this in the terminal, I pushed my work to GitHub as shown in the image below.
+After receiving this in the terminal, I pushed my work to GitHub as shown in the image below.
 
 <img src="step9c.png" width="70%" hieght="70%">
