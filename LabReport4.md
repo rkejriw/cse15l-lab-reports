@@ -10,7 +10,7 @@ Keys pressed: `ssh cs15lsp23eh@ieng6.ucsd.edu <enter>` and `Password: <enter>` B
 
 ## Step 5 - Clone your fork of the repository from your Github account
 
-<img src="step5.png" width="70%" hieght="70%">
+![Image](step5.png)
 
 Keys pressed: `git clone https://github.com/ucsd-cse15l-s23/lab7 <enter>` By putting in the `git clone` command I am able to clone any repository I have forked. Therefore, after putting in the `git clone` command I put in the url of the repository I want to clone, and it gets cloned onto my device. I can then press `cd lab7` to change the current directory to `lab7` so that I can access all the files inside that directory.
 
