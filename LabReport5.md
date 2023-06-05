@@ -38,13 +38,14 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
     ListExamples.java:
 
 <img src="vimcode.png" width="50%" hieght="50%">
+
     ListExamplesTests.java:
 
 <img src="vimcode2.png" width="50%" hieght="50%">
 
-3. Command line ran to trigger the bug: `bash test.sh`
+* Command line ran to trigger the bug: `bash test.sh`
  
-4. Edit to fix bug: Change `index2 > list2.size()` on line 41 in `ListExamples.java` to `index2 < list2.size()`
+* Edit to fix bug: Change `index2 > list2.size()` on line 41 in `ListExamples.java` to `index2 < list2.size()`
 
 ## Part 2 - Reflection
 
