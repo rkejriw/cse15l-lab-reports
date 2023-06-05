@@ -29,9 +29,9 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 * Thus, the student fixed the bug and their tests run now.
 
 ### 4. Information about setup
-1. File and Directory Structure: The files are from the GitHub repository for Lab7. After cloning the repository, we change the current directory to lab7 by using the command `cd lab7`. We can then use `ls` to see all the files present in the directory. Here the files present are: `ListExamples.class  ListExamplesTests.class  StringChecker.class  test.sh ListExamples.java   ListExamplesTests.java   lib`
+* File and Directory Structure: The files are from the GitHub repository for Lab7. After cloning the repository, we change the current directory to lab7 by using the command `cd lab7`. We can then use `ls` to see all the files present in the directory. Here the files present are: `ListExamples.class  ListExamplesTests.class  StringChecker.class  test.sh ListExamples.java   ListExamplesTests.java   lib`
 
-2. Contents of each file before fixing the bug:
+* Contents of each file before fixing the bug:
 
   ListExamples.java:
 
@@ -42,7 +42,7 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 <img src="vimcode2.png" width="50%" hieght="50%">
 
 3. Command line ran to trigger the bug: `bash test.sh`
-
+ 
 4. Edit to fix bug: Change `index2 > list2.size()` on line 41 in `ListExamples.java` to `index2 < list2.size()`
 
 ## Part 2 - Reflection
