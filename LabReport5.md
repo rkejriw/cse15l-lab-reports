@@ -9,12 +9,20 @@ This Lab Report consists of two parts:
 ### 1. Post from student on edstem about bug in the code
 ![Image](edstem1.png)
 ![Image](edstem2.png)
-* Here the student is asking the TA about an error caused by the code due to some bug in it. However, they cannot understand what the bug is and how they should go about fixing it.
+* Here the student is asking the TA about an error caused by the code due to some bug in it. However, they cannot understand what the bug is and how they should go about fixing it. They have also incorrectly indentified the file in which the bug is present.
 
 ### 2. Response from TA 
-* Revisit the commands we learnt in lecture. You can use `vim` to access the files without having it on GitHub to view. 
-* Also, the error is caused in the file `ListExamples.java` and not `ListExamplesTests.java`.
-* I suggest you use the `vim ListExamples.java` command to access the contents of the file and then work of fixing the error in your code. 
-* As I can see in the picture you have provided, there seems to be an error in `result.add(0, result)`. Check your code and fix the incompatible datatypes error.
+Revisit the commands we learnt in lecture. You can use `vim` to access the files without having it on GitHub to view. Also, the error is caused in the file `ListExamples.java` and not `ListExamplesTests.java` as I can see in the picture you have provided. I suggest you use the `vim ListExamples.java` command to access the contents of the file and then work of fixing the error in your code. It seems that there is a `ComparisonCriteria` error. I suggest you check your code and fix the comparisons you are making in the if and while statements.
+
+### 3. Terminal Output after receiving feedback from TA
+**Terminal output:** ![Image](terminalcorrectoutput.png)
+**Correction in file:** ![Image](vimcorrection.png)
+* The student opened the file `ListExamples.java` using `vim` as the TA suggested and checked their code and found an error in the while loop where they had incorrectly comapred `index2` and `list2.size` in line 41. 
+* This was the incorrect command given: `index2 > list2.size())`
+* After the feedback from the TA, the student changed it to the correct comparison: `index2 < list2.size())`
+* The student then ran the tests using `bash test.sh` and did not get any failures.
+* Thus, the student fixed the bug and their tests run now.
+
+### 4. Information about setup
 
 ## Part 2 - Reflection
