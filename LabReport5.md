@@ -35,7 +35,7 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 
 ListExamples.java:
 
-<img src="vimcode.png" width="40%" hieght="40%">
+<img src="vimcode.png" width="30%" hieght="30%">
 
 ListExamplesTests.java:
 
