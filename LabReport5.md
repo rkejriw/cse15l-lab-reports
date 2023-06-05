@@ -24,5 +24,6 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 * Thus, the student fixed the bug and their tests run now.
 
 ### 4. Information about setup
+d
 
 ## Part 2 - Reflection
