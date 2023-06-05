@@ -33,11 +33,10 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 
 * Contents of each file before fixing the bug:
 
-  ListExamples.java:
+    ListExamples.java:
 
 <img src="vimcode.png" width="50%" hieght="50%">
-
-  ListExamplesTests.java:
+    ListExamplesTests.java:
 
 <img src="vimcode2.png" width="50%" hieght="50%">
 
