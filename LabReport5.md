@@ -32,9 +32,9 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 2. Contents of each file before fixing the bug:
 
 ListExamples.java:
-<img src="vimcode.png" width="70%" hieght="70%">
+<img src="vimcode.png" width="40%" hieght="40%">
 ListExamplesTests.java:
-<img src="vimcode2.png" width="70%" hieght="70%">
+<img src="vimcode2.png" width="40%" hieght="40%">
 
 3. Command line ran to trigger the bug: `bash test.sh`
 
