@@ -17,11 +17,11 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 ### 3. Terminal Output after receiving feedback from TA
 **Terminal output:** 
 
-<img src="terminalcorrectoutput.png" width="50%" hieght="50%">
+<img src="terminalcorrectoutput.png" width="70%" hieght="70%">
 
 **Correction in file:** 
 
-<img src="vimcorrection.png" width="50%" hieght="50%">
+<img src="vimcorrection.png" width="70%" hieght="70%">
 * The student opened the file `ListExamples.java` using `vim` as the TA suggested and checked their code and found an error in the while loop where they had incorrectly comapred `index2` and `list2.size` in line 41. 
 * This was the incorrect command given: `index2 > list2.size()`
 * After the feedback from the TA, the student changed it to the correct comparison: `index2 < list2.size()`
