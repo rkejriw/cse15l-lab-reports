@@ -7,8 +7,8 @@ This Lab Report consists of two parts:
 ## Part 1 - Debugging Scenario
 
 ### 1. Post from student on edstem about bug in the code
-<img src="edstem1.png" width="60%" hieght="60%">
-<img src="edstem2.png" width="60%" hieght="60%">
+<img src="edstem1.png" width="80%" hieght="80%">
+<img src="edstem2.png" width="80%" hieght="80%">
 * Here the student is asking the TA about an error caused by the code due to some bug in it. However, they cannot understand what the bug is and how they should go about fixing it. They have also incorrectly indentified the file in which the bug is present.
 
 ### 2. Response from TA 
@@ -35,7 +35,7 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 
 ListExamples.java:
 
-<img src="vimcode.png" width="30%" hieght="30%">
+<img src="vimcode.png" width="40%" hieght="40%">
 
 ListExamplesTests.java:
 
