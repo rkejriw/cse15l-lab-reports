@@ -16,9 +16,11 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 
 ### 3. Terminal Output after receiving feedback from TA
 **Terminal output:** 
+
 <img src="terminalcorrectoutput.png" width="40%" hieght="40%">
 
 **Correction in file:** 
+
 <img src="vimcorrection.png" width="40%" hieght="40%">
 * The student opened the file `ListExamples.java` using `vim` as the TA suggested and checked their code and found an error in the while loop where they had incorrectly comapred `index2` and `list2.size` in line 41. 
 * This was the incorrect command given: `index2 > list2.size()`
@@ -32,9 +34,11 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 2. Contents of each file before fixing the bug:
 
 ListExamples.java:
+
 <img src="vimcode.png" width="40%" hieght="40%">
 
 ListExamplesTests.java:
+
 <img src="vimcode2.png" width="40%" hieght="40%">
 
 3. Command line ran to trigger the bug: `bash test.sh`
