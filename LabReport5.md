@@ -7,8 +7,8 @@ This Lab Report consists of two parts:
 ## Part 1 - Debugging Scenario
 
 ### 1. Post from student on edstem about bug in the code
-<img src="edstem1.png" width="80%" hieght="80%">
-<img src="edstem2.png" width="80%" hieght="80%">
+<img src="edstem1.png" width="82%" hieght="82%">
+<img src="edstem2.png" width="82%" hieght="82%">
 * Here the student is asking the TA about an error caused by the code due to some bug in it. However, they cannot understand what the bug is and how they should go about fixing it. They have also incorrectly indentified the file in which the bug is present.
 
 ### 2. Response from TA 
@@ -17,11 +17,11 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 ### 3. Terminal Output after receiving feedback from TA
 **Terminal output:** 
 
-<img src="terminalcorrectoutput.png" width="40%" hieght="40%">
+<img src="terminalcorrectoutput.png" width="50%" hieght="50%">
 
 **Correction in file:** 
 
-<img src="vimcorrection.png" width="40%" hieght="40%">
+<img src="vimcorrection.png" width="50%" hieght="50%">
 * The student opened the file `ListExamples.java` using `vim` as the TA suggested and checked their code and found an error in the while loop where they had incorrectly comapred `index2` and `list2.size` in line 41. 
 * This was the incorrect command given: `index2 > list2.size()`
 * After the feedback from the TA, the student changed it to the correct comparison: `index2 < list2.size()`
