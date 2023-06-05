@@ -17,6 +17,7 @@ Revisit the commands we learnt in lecture. You can use `vim` to access the files
 ### 3. Terminal Output after receiving feedback from TA
 **Terminal output:** 
 <img src="terminalcorrectoutput.png" width="60%" hieght="60%">
+
 **Correction in file:** 
 <img src="vimcorrection.png" width="50%" hieght="50%">
 * The student opened the file `ListExamples.java` using `vim` as the TA suggested and checked their code and found an error in the while loop where they had incorrectly comapred `index2` and `list2.size` in line 41. 
